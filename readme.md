@@ -10,21 +10,21 @@ VBB **[publishes static public transport data](http://daten.berlin.de/datensaetz
 
 Modules containing processed static data:
 
-- [`vbb-stations`](https://github.com/derhuerst/vbb-stations) – A list of VBB stations.
-- [`vbb-lines`](https://github.com/derhuerst/vbb-lines) – VBB lines and their stations.
-- [`vbb-lines-at`](https://github.com/derhuerst/vbb-lines-at) – Which lines run at a VBB station?
-- [`vbb-trips`](https://github.com/derhuerst/vbb-trips) – When do trains run where in VBB?
-- [`vbb-shapes`](https://github.com/derhuerst/vbb-shapes) – Shapes of VBB lines.
+- [`vbb-stations`](https://github.com/derhuerst/vbb-stations) – A list of stations.
+- [`vbb-lines`](https://github.com/derhuerst/vbb-lines) – Lines and their stations.
+- [`vbb-lines-at`](https://github.com/derhuerst/vbb-lines-at) – Which lines run at a station?
+- [`vbb-trips`](https://github.com/derhuerst/vbb-trips) – When do trains run where?
+- [`vbb-shapes`](https://github.com/derhuerst/vbb-shapes) – Shapes of lines.
 - [`vbb-runs-every`](https://github.com/derhuerst/vbb-runs-every) – Compute frequencies of departures and routes. *unmaintained*
 - [`vbb-translate-ids`](https://github.com/derhuerst/vbb-translate-ids) – Translate VBB ids old -> new & new -> old.
 - [`vbb-static`](https://github.com/derhuerst/vbb-static) – *outdated, use the modules above*
 
 Modules to find stations:
 
-- [`vbb-stations-autocomplete`](https://github.com/derhuerst/vbb-stations-autocomplete) – Autocomplete VBB stations.
-- [`vbb-find-stations`](https://github.com/derhuerst/vbb-find-stations) – Search for stations of VBB.
-- [`vbb-find-station`](https://github.com/derhuerst/vbb-find-station) – Search for a VBB station.
-- [`vbb-stations-cli`](https://github.com/derhuerst/vbb-stations-cli) – Find and filter VBB stations from the command line.
+- [`vbb-stations-autocomplete`](https://github.com/derhuerst/vbb-stations-autocomplete) – Autocomplete stations.
+- [`vbb-find-stations`](https://github.com/derhuerst/vbb-find-stations) – Search for stations.
+- [`vbb-find-station`](https://github.com/derhuerst/vbb-find-station) – Search for a station.
+- [`vbb-stations-cli`](https://github.com/derhuerst/vbb-stations-cli) – Find and filter stations from the command line.
 
 Modules with additional data:
 
@@ -43,31 +43,31 @@ The VBB app talks to another ***private* API that is stable and has neither rate
 
 These modules can be used to query data from the API and other places.
 
-- [`vbb-client`](https://github.com/derhuerst/vbb-client) – An API client for Berlin & Brandenburg public transport.
-- [`vbb-rest`](https://github.com/derhuerst/vbb-rest) – An HTTP REST server for Berlin & Brandenburg public transport.
-- [`vbb-hafas`](https://github.com/derhuerst/vbb-hafas) – A JavaScript client for Berlin & Brandenburg public transport HAFAS API.
-- [`hafas-client`](https://github.com/derhuerst/hafas-client) – JavaScript client for HAFAS mobile APIs.
+- [`vbb-client`](https://github.com/derhuerst/vbb-client) – An API client for `vbb-rest`, covering all of VBB.
+- [`vbb-rest`](https://github.com/derhuerst/vbb-rest) – An HTTP API, covering all of VBB.
+- [`vbb-hafas`](https://github.com/derhuerst/vbb-hafas) – A client for their HAFAS API.
+- [`hafas-client`](https://github.com/derhuerst/hafas-client) – A client for HAFAS mobile APIs.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
-- [`vbb-monitor`](https://github.com/derhuerst/vbb-monitor) – Fetch all departures of all lines at all stations of VBB.
+- [`vbb-monitor`](https://github.com/derhuerst/vbb-monitor) – Fetch all departures of all lines at all stations.
 - [`vbb-positions-stream`](https://github.com/derhuerst/vbb-positions-stream) – A realtime stream for positions of buses and trains.
 
 ## Tools, UIs & Experiments
 
-- [`vbb-cli`](https://github.com/derhuerst/vbb-cli) – A CLI for Berlin & Brandenburg public transport.
-- [`vbb-telegram`](https://github.com/derhuerst/vbb-telegram) – A Telegram bot for Berlin & Brandenburg public transport.
-- [`vbb-map-routing`](https://github.com/derhuerst/vbb-map-routing) – Use VBB interactively, using a map. *unfinished*
+- [`vbb-cli`](https://github.com/derhuerst/vbb-cli) – A CLI for VBB.
+- [`vbb-telegram`](https://github.com/derhuerst/vbb-telegram) – A Telegram bot for VBB.
+- [`vbb-map-routing`](https://github.com/derhuerst/vbb-map-routing) – Travel in Berlin, using a map. *unfinished*
 - [`vbb-delays-map`](https://github.com/derhuerst/vbb-delays-map) – A map showing delays of public transport in Berlin. *outdated*
-- [`vbb-delays`](https://github.com/derhuerst/vbb-delays) – Generate statistics on delayed VBB departures. *unfinished*
+- [`vbb-delays`](https://github.com/derhuerst/vbb-delays) – Generate statistics on delayed departures. *unfinished*
 - [`bvg-topological-map`](https://github.com/derhuerst/bvg-topological-map) – BVG transport map as a nice SVG.
 - [`vbb-web`](https://github.com/derhuerst/vbb-web) – A web client for Berlin & Brandenburg public transport.
 - [`vbb-anybar`](https://github.com/derhuerst/vbb-anybar) – Let the status bar show you when to catch the train. *unfinished*
-- [`vbb-map`](https://github.com/derhuerst/vbb-map) – Render VBB lines on a map. *unmaintained*
+- [`vbb-map`](https://github.com/derhuerst/vbb-map) – Render lines on a map. *unmaintained*
 
 Modules I'm not willing to maintain right now:
 
-- [`vbb-osm-map`](https://github.com/derhuerst/vbb-osm-map) – Render VBB lines on a map, using OpenStreetMap. *unmaintained*
+- [`vbb-osm-map`](https://github.com/derhuerst/vbb-osm-map) – Render lines on a map, using OpenStreetMap. *unmaintained*
 - [`vbb-toy-map-feed`](https://github.com/derhuerst/vbb-toy-map-feed) – A live feed for the BVG delays map. *unmaintained*
-- [`vbb-station-graph`](https://github.com/derhuerst/vbb-station-graph) – Visualize VBB public transport next to any station. *unmaintained*
+- [`vbb-station-graph`](https://github.com/derhuerst/vbb-station-graph) – Visualize public transport next to any station. *unmaintained*
 
 ## Community
 
@@ -91,7 +91,7 @@ Modules by others, sorted by latest activity:
 These modules perform a specific distinct task. They are used by the modules above.
 
 - [`vbb-parse-line`](https://github.com/derhuerst/vbb-parse-line) – Parse VBB lines like M4, TXL, S42.
-- [`vbb-parse-ticket`](https://github.com/derhuerst/vbb-parse-ticket) – Parse ticket information from the VBB HAFAS API.
-- [`vbb-short-station-name`](https://github.com/derhuerst/vbb-short-station-name) – Remove noise from VBB station names.
-- [`vbb-tokenize-station`](https://github.com/derhuerst/vbb-tokenize-station) – Remove noise from VBB station names.
-- [`vbb-util`](https://github.com/derhuerst/vbb-util) – JavaScript utilites for the VBB API client.
+- [`vbb-parse-ticket`](https://github.com/derhuerst/vbb-parse-ticket) – Parse ticket information from the HAFAS API.
+- [`vbb-short-station-name`](https://github.com/derhuerst/vbb-short-station-name) – Remove noise from station names.
+- [`vbb-tokenize-station`](https://github.com/derhuerst/vbb-tokenize-station) – Make station names search-safe.
+- [`vbb-util`](https://github.com/derhuerst/vbb-util) – JavaScript utilites for `vbb-hafas`.
