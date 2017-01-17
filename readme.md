@@ -46,6 +46,7 @@ These modules can be used to query data from the API and other places.
 - [`vbb-client`](https://github.com/derhuerst/vbb-client) – An API client for Berlin & Brandenburg public transport.
 - [`vbb-rest`](https://github.com/derhuerst/vbb-rest) – An HTTP REST server for Berlin & Brandenburg public transport.
 - [`vbb-hafas`](https://github.com/derhuerst/vbb-hafas) – A JavaScript client for Berlin & Brandenburg public transport HAFAS API.
+- [`hafas-client`](https://github.com/derhuerst/hafas-client) – JavaScript client for HAFAS mobile APIs.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
 - [`vbb-monitor`](https://github.com/derhuerst/vbb-monitor) – Fetch all departures of all lines at all stations of VBB.
 - [`vbb-positions-stream`](https://github.com/derhuerst/vbb-positions-stream) – A realtime stream for positions of buses and trains.
@@ -67,6 +68,23 @@ Modules I'm not willing to maintain right now:
 - [`vbb-osm-map`](https://github.com/derhuerst/vbb-osm-map) – Render VBB lines on a map, using OpenStreetMap. *unmaintained*
 - [`vbb-toy-map-feed`](https://github.com/derhuerst/vbb-toy-map-feed) – A live feed for the BVG delays map. *unmaintained*
 - [`vbb-station-graph`](https://github.com/derhuerst/vbb-station-graph) – Visualize VBB public transport next to any station. *unmaintained*
+
+## Community
+
+Modules by others, sorted by latest activity:
+
+- [`MMM-PublicTransportBerlin`](https://github.com/deg0nz/MMM-PublicTransportBerlin) – MagicMirror module to display public transport with VBB Hafas data.
+- [`vbb-interactive`](https://github.com/domsson/vbb-interactive) – Attempt to draw the VBB public transport map with JS and SVG
+- [`isometric-icons`](https://github.com/tursics/isometric-icons) – VBB toy map, created at mobility{hacks} 2016
+- [`vbb-delay-map`](https://github.com/juliuste/vbb-delay-map) – VBB delay map, created at mobility{hacks} 2016
+- [`vbb-bot`](https://github.com/brene/vbb-bot) – A bot that tells you times for public transport in Berlin
+- [`InfoVis-VBB-Fahrplandaten-Starplot`](https://github.com/sto3psl/InfoVis-VBB-Fahrplandaten-Starplot) – Eine Informationsvisualisierung der VBB-Fahrplandaten von Dezember 2014 bis Dezember 2015.
+- [`VBBNow`](https://github.com/docterd/VBBNow) – A VBB NotificationCenter Widget. It shows the nearby transit information
+- [`vbb_permalink`](https://github.com/westberliner/vbb_permalink) – Ein Bookmarklet, das Permalinks von VBB-Fahrinfo und der Deutschen Bahn generiert.
+- [`berlin-transport-status`](https://github.com/mschneider/berlin-transport-status) – Distributed crawler for VBB-Fahrinfo written in node.js
+- [`vbb-json`](https://github.com/stefanw/vbb-json) – JSON-API wrapper around the VBB API
+- [`vbbFXOS`](https://github.com/derroman/vbbFXOS) – vbb maps ported to firefox os
+- [`vbb-coverage`](https://github.com/domoritz/vbb-coverage) – Visualization of the VBB data from [`daten.berlin.de`](http://daten.berlin.de/datensaetze/vbb-fahrplan2012)
 
 ## Utilities
 
