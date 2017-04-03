@@ -4,12 +4,17 @@ This is a list of JavaScript modules for [Berlin & Brandenburg public transport 
 
 *TLDR*: Use [vbb-rest](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) if you don't know where to start or want a very light client.
 
+## Friendly Public Transport Format
+
+There's an ongoing effort to convert all of the modules below to the [Friendly Public Transport Format](https://github.com/public-transport/friendly-public-transport-format), which intends to make them interoperable and easier to use.
+
 ## Static Data
 
 VBB **[publishes static public transport data](http://daten.berlin.de/datensaetze/vbb-fahrplandaten-dezember-2016-bis-dezember-2017) (stops of all trains of all lines at all stations) as [GTFS](https://developers.google.com/transit/gtfs/).** These GTFS data sets look & feel like a database dump, so a lot of processing needs to be done to actually consume this data.
 
 Modules containing processed static data:
 
+- [`vbb-gtfs.jannisr.de`](https://vbb-gtfs.jannisr.de/) – Raw data for Berlin & Brandenburg public transport.
 - [`vbb-stations`](https://github.com/derhuerst/vbb-stations) – A list of stations.
 - [`vbb-lines`](https://github.com/derhuerst/vbb-lines) – Lines and their stations.
 - [`vbb-lines-at`](https://github.com/derhuerst/vbb-lines-at) – Which lines run at a station?
@@ -31,7 +36,9 @@ Modules with additional data:
 - [`vbb-common-places`](https://github.com/derhuerst/vbb-common-places) – Aliases for common stations.
 - [`vbb-osm-relations`](https://github.com/derhuerst/vbb-osm-relations) – VBB lines and their OpenStreetMap relations.
 - [`vbb-station-photos`](https://github.com/derhuerst/vbb-station-photos) – Photos of every subway station in Berlin.
+- [`vbb-stations-with-wifi`](https://github.com/derhuerst/vbb-stations-with-wifi) – All VBB stations with free wifi.
 - [`vbb-logos`](https://github.com/derhuerst/vbb-logos) – Nice SVG logos for Berlin & Brandenburg public transport.
+- [`vbb-mode-weights`](https://github.com/derhuerst/vbb-mode-weights) – Weights of modes of public transport in Berlin.
 - [`vbb-entrances`](https://github.com/derhuerst/vbb-entrances) – Entrances for VBB stations. *outdated*
 - [`vbb-delays-list`](https://github.com/derhuerst/vbb-delays-list) – Statistics on delays at VBB stations. *unfinished*
 
