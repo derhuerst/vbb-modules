@@ -33,12 +33,12 @@ Modules to find stations:
 
 Modules with additional data:
 
+- [`vbb-fare-zones`](https://github.com/derhuerst/vbb-fare-zones) – All VBB stations and their fare zones.
 - [`vbb-common-places`](https://github.com/derhuerst/vbb-common-places) – Aliases for common stations.
 - [`vbb-osm-relations`](https://github.com/derhuerst/vbb-osm-relations) – VBB lines and their OpenStreetMap relations.
 - [`vbb-station-photos`](https://github.com/derhuerst/vbb-station-photos) – Photos of every subway station in Berlin.
 - [`vbb-stations-with-wifi`](https://github.com/derhuerst/vbb-stations-with-wifi) – All VBB stations with free wifi.
 - [`vbb-logos`](https://github.com/derhuerst/vbb-logos) – Nice SVG logos for Berlin & Brandenburg public transport.
-- [`vbb-mode-weights`](https://github.com/derhuerst/vbb-mode-weights) – Weights of modes of public transport in Berlin.
 - [`vbb-entrances`](https://github.com/derhuerst/vbb-entrances) – Entrances for VBB stations. *outdated*
 - [`vbb-delays-list`](https://github.com/derhuerst/vbb-delays-list) – Statistics on delays at VBB stations. *unfinished*
 
@@ -98,6 +98,8 @@ Modules by others, sorted by latest activity:
 These modules perform a specific distinct task. They are used by the modules above.
 
 - [`vbb-parse-line`](https://github.com/derhuerst/vbb-parse-line) – Parse VBB lines like M4, TXL, S42.
+- [`vbb-sort-lines`](https://github.com/derhuerst/vbb-sort-lines) – Sort VBB lines by their importance.
+- [`vbb-mode-weights`](https://github.com/derhuerst/vbb-mode-weights) – Weights of modes of public transport in Berlin.
 - [`vbb-parse-ticket`](https://github.com/derhuerst/vbb-parse-ticket) – Parse ticket information from the HAFAS API.
 - [`vbb-short-station-name`](https://github.com/derhuerst/vbb-short-station-name) – Remove noise from station names.
 - [`vbb-tokenize-station`](https://github.com/derhuerst/vbb-tokenize-station) – Make station names search-safe.
