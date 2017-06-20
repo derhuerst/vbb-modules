@@ -41,6 +41,7 @@ Modules with additional data:
 - [`vbb-logos`](https://github.com/derhuerst/vbb-logos) – Nice SVG logos for Berlin & Brandenburg public transport.
 - [`vbb-entrances`](https://github.com/derhuerst/vbb-entrances) – Entrances for VBB stations. *outdated*
 - [`vbb-delays-list`](https://github.com/derhuerst/vbb-delays-list) – Statistics on delays at VBB stations. *unfinished*
+- [`vbb-graph`](https://github.com/derhuerst/vbb-graph) – Berlin & Brandenburg public transport as JSON graph. *unfinished*
 
 ## APIs
 
@@ -65,9 +66,13 @@ These modules can be used to query data from the API and other places.
 - [`vbb-map-routing`](https://github.com/derhuerst/vbb-map-routing) – Travel in Berlin, using a map. *unfinished*
 - [`vbb-delays-map`](https://github.com/derhuerst/vbb-delays-map) – A map showing delays of public transport in Berlin. *outdated*
 - [`vbb-delays`](https://github.com/derhuerst/vbb-delays) – Generate statistics on delayed departures. *unfinished*
+- [`generate-vbb-gtfs`](https://github.com/derhuerst/generate-vbb-gtfs) – Generate clean GTFS from VBB data. *unfinished*
+- [`generate-vbb-graph`](https://github.com/derhuerst/generate-vbb-graph) – Berlin & Brandenburg public transport as JGF file.
+- [`vbb-graph`](https://github.com/derhuerst/vbb-graph) – Berlin & Brandenburg public transport as JSON graph.
 - [`bvg-topological-map`](https://github.com/derhuerst/bvg-topological-map) – BVG transport map as a nice SVG.
 - [`vbb-web`](https://github.com/derhuerst/vbb-web) – A web client for Berlin & Brandenburg public transport.
 - [`vbb-anybar`](https://github.com/derhuerst/vbb-anybar) – Let the status bar show you when to catch the train. *unfinished*
+- [`vbb-get-off-bot`](https://github.com/derhuerst/vbb-get-off-bot) – A Telegram bot that helps you get off your train on time. *unfinished*
 - [`vbb-map`](https://github.com/derhuerst/vbb-map) – Render lines on a map. *unmaintained*
 
 Modules I'm not willing to maintain right now:
