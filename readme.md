@@ -18,6 +18,7 @@ Modules containing processed static data:
 - [`vbb-stations`](https://github.com/derhuerst/vbb-stations) – A list of stations.
 - [`vbb-lines`](https://github.com/derhuerst/vbb-lines) – Lines and their stations.
 - [`vbb-lines-at`](https://github.com/derhuerst/vbb-lines-at) – Which lines run at a station?
+- [`vbb-stations-connected-to`](https://github.com/derhuerst/vbb-stations-connected-to) – Get all stations connected to a station.
 - [`vbb-trips`](https://github.com/derhuerst/vbb-trips) – When do trains run where?
 - [`vbb-shapes`](https://github.com/derhuerst/vbb-shapes) – Shapes of lines.
 - [`vbb-runs-every`](https://github.com/derhuerst/vbb-runs-every) – Compute frequencies of departures and routes. *unmaintained*
@@ -34,6 +35,7 @@ Modules to find stations:
 Modules with additional data:
 
 - [`vbb-fare-zones`](https://github.com/derhuerst/vbb-fare-zones) – All VBB stations and their fare zones.
+- [`vbb-station-operators`](https://github.com/derhuerst/vbb-station-operators) – Which operator services a Berlin public transport station?
 - [`vbb-common-places`](https://github.com/derhuerst/vbb-common-places) – Aliases for common stations.
 - [`vbb-osm-relations`](https://github.com/derhuerst/vbb-osm-relations) – VBB lines and their OpenStreetMap relations.
 - [`vbb-station-photos`](https://github.com/derhuerst/vbb-station-photos) – Photos of every subway station in Berlin.
