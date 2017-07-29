@@ -70,12 +70,17 @@ These modules can be used to query data from the (private) API and other places.
 - [`vbb-delays-map`](https://github.com/derhuerst/vbb-delays-map) – A map showing delays of public transport in Berlin. *outdated*
 - [`vbb-delays`](https://github.com/derhuerst/vbb-delays) – Generate statistics on delayed departures. *unfinished*
 - [`generate-vbb-gtfs`](https://github.com/derhuerst/generate-vbb-gtfs) – Generate clean GTFS from VBB data. *unfinished*
-- [`generate-vbb-graph`](https://github.com/derhuerst/generate-vbb-graph) – Berlin & Brandenburg public transport as JGF file.
 - [`bvg-topological-map`](https://github.com/derhuerst/bvg-topological-map) – BVG transport map as a nice SVG.
 - [`vbb-web`](https://github.com/derhuerst/vbb-web) – A web client for Berlin & Brandenburg public transport.
 - [`vbb-anybar`](https://github.com/derhuerst/vbb-anybar) – Let the status bar show you when to catch the train. *unfinished*
 - [`vbb-get-off-bot`](https://github.com/derhuerst/vbb-get-off-bot) – A Telegram bot that helps you get off your train on time. *unfinished*
 - [`berlin-commute-footprint`](https://github.com/derhuerst/berlin-commute-footprint) – Compare cost, environmental and health impact of commuting by car, public transport of bike. *unfinished*
+
+From the [*How to automatically generate transit maps.*](https://github.com/public-transport/generating-transit-maps) experiment:
+
+- [`generate-vbb-graph`](https://github.com/derhuerst/generate-vbb-graph) – Berlin & Brandenburg public transport as JGF file.
+- [`generate-vbb-transit-map`](https://github.com/derhuerst/generate-vbb-transit-map) – Generate an SVG transit map for Berlin public transport.
+- [`vbb-graph-computation-server`](https://github.com/derhuerst/vbb-graph-computation-server) – A web service to queue VBB transit map computations.
 
 Modules I'm not willing to maintain right now:
 
@@ -88,6 +93,7 @@ Modules I'm not willing to maintain right now:
 
 Modules by others, sorted by latest activity:
 
+- [`vbb-stations`](https://github.com/poldixd/vbb-stations) – Lists of stations in Berlin which are operated by BVG or S-Bahn.
 - [`MMM-PublicTransportBerlin`](https://github.com/deg0nz/MMM-PublicTransportBerlin) – MagicMirror module to display public transport with VBB Hafas data.
 - [`vbb-interactive`](https://github.com/domsson/vbb-interactive) – Attempt to draw the VBB public transport map with JS and SVG
 - [`isometric-icons`](https://github.com/tursics/isometric-icons) – VBB toy map, created at mobility{hacks} 2016
