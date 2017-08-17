@@ -37,7 +37,7 @@ Modules with additional data:
 - [`vbb-fare-zones`](https://github.com/derhuerst/vbb-fare-zones) – All VBB stations and their fare zones.
 - [`vbb-station-operators`](https://github.com/derhuerst/vbb-station-operators) – Which operator services a Berlin public transport station?
 - [`vbb-common-places`](https://github.com/derhuerst/vbb-common-places) – Aliases for common stations.
-- [`vbb-osm-relations`](https://github.com/derhuerst/vbb-osm-relations) – VBB lines and their OpenStreetMap relations.
+- [`vbb-osm-relations`](https://github.com/derhuerst/vbb-osm-relations) – VBB lines, platforms, entrances and their OSM relations.
 - [`vbb-station-photos`](https://github.com/derhuerst/vbb-station-photos) – Photos of every subway station in Berlin.
 - [`vbb-stations-with-wifi`](https://github.com/derhuerst/vbb-stations-with-wifi) – All VBB stations with free wifi.
 - [`vbb-logos`](https://github.com/derhuerst/vbb-logos) – Nice SVG logos for Berlin & Brandenburg public transport.
@@ -56,6 +56,7 @@ These modules can be used to query data from the (private) API and other places.
 - [`vbb-client`](https://github.com/derhuerst/vbb-client) – An API client for `vbb-rest`, covering all of VBB, deployed at `vbb.transport.rest`.
 - [`vbb-rest`](https://github.com/derhuerst/vbb-rest) – An HTTP API, covering all of VBB.
 - [`vbb-hafas`](https://github.com/derhuerst/vbb-hafas) – A client for their HAFAS API.
+- [`vbb-departures-in-direction`](https://github.com/derhuerst/vbb-departures-in-direction) – Get departures at a VBB station in a certain direction.
 - [`hafas-client`](https://github.com/derhuerst/hafas-client) – A client for HAFAS mobile APIs.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
 - [`vbb-monitor`](https://github.com/derhuerst/vbb-monitor) – Fetch all departures of all lines at all stations.
@@ -71,6 +72,7 @@ These modules can be used to query data from the (private) API and other places.
 - [`vbb-delays`](https://github.com/derhuerst/vbb-delays) – Generate statistics on delayed departures. *unfinished*
 - [`generate-vbb-gtfs`](https://github.com/derhuerst/generate-vbb-gtfs) – Generate clean GTFS from VBB data. *unfinished*
 - [`bvg-topological-map`](https://github.com/derhuerst/bvg-topological-map) – BVG transport map as a nice SVG.
+- [`vbb-stations-html`](https://derhuerst.github.io/vbb-stations-html/) – An HTML index of all VBB stations.
 - [`vbb-web`](https://github.com/derhuerst/vbb-web) – A web client for Berlin & Brandenburg public transport.
 - [`vbb-anybar`](https://github.com/derhuerst/vbb-anybar) – Let the status bar show you when to catch the train. *unfinished*
 - [`vbb-get-off-bot`](https://github.com/derhuerst/vbb-get-off-bot) – A Telegram bot that helps you get off your train on time. *unfinished*
