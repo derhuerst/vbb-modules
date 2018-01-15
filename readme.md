@@ -57,6 +57,7 @@ These modules can be used to query data from the (private) API and other places.
 - [`vbb-rest`](https://github.com/derhuerst/vbb-rest) – An HTTP API, covering all of VBB.
 - [`vbb-hafas`](https://github.com/derhuerst/vbb-hafas) – A client for their HAFAS API.
 - [`hafas-departures-in-direction`](https://github.com/derhuerst/hafas-departures-in-direction) – Pass in a HAFAS client, get departures in a certain direction.
+- [`hafas-collect-departures-at`](https://github.com/derhuerst/hafas-collect-departures-at) – Utility to collect departures, using any HAFAS client.
 - [`hafas-client`](https://github.com/derhuerst/hafas-client) – A client for HAFAS mobile APIs.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
 - [`vbb-monitor`](https://github.com/derhuerst/vbb-monitor) – Fetch all departures of all lines at all stations.
@@ -118,6 +119,7 @@ These modules perform a specific distinct task. They are used by the modules abo
 - [`vbb-sort-lines`](https://github.com/derhuerst/vbb-sort-lines) – Sort VBB lines by their importance.
 - [`vbb-mode-weights`](https://github.com/derhuerst/vbb-mode-weights) – Weights of modes of public transport in Berlin.
 - [`merge-vbb-stations`](https://github.com/derhuerst/merge-vbb-stations) – Heuristic to find VBB stations & stops that should be one.
+- [`merged-vbb-stations`](https://github.com/derhuerst/merged-vbb-stations) – A precomputed list of VBB stations that should be one.
 - [`vbb-parse-ticket`](https://github.com/derhuerst/vbb-parse-ticket) – Parse ticket information from the HAFAS API.
 - [`vbb-short-station-name`](https://github.com/derhuerst/vbb-short-station-name) – Remove noise from station names.
 - [`vbb-tokenize-station`](https://github.com/derhuerst/vbb-tokenize-station) – Make station names search-safe.
