@@ -2,6 +2,8 @@
 
 This is a list of JavaScript modules for [Berlin & Brandenburg public transport (VBB)](https://www.vbb.de/), grouped by their data source.
 
+[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
+
 *TLDR*: Use [vbb-rest](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) if you don't know where to start or want a very light client.
 
 ## Friendly Public Transport Format
@@ -53,12 +55,13 @@ The VBB app talks to another ***private* API that has neither rate limits nor au
 
 These modules can be used to query data from the (private) API and other places.
 
-- [`vbb-client`](https://github.com/derhuerst/vbb-client) – An API client for `vbb-rest`, covering all of VBB, deployed at `vbb.transport.rest`.
+- [`vbb-client`](https://github.com/derhuerst/vbb-client) – An API client for `vbb-rest`, covering all of VBB, deployed at `2.vbb.transport.rest`.
 - [`vbb-rest`](https://github.com/derhuerst/vbb-rest) – An HTTP API, covering all of VBB.
 - [`vbb-hafas`](https://github.com/derhuerst/vbb-hafas) – A client for their HAFAS API.
 - [`hafas-departures-in-direction`](https://github.com/derhuerst/hafas-departures-in-direction) – Pass in a HAFAS client, get departures in a certain direction.
 - [`hafas-collect-departures-at`](https://github.com/derhuerst/hafas-collect-departures-at) – Utility to collect departures, using any HAFAS client.
 - [`hafas-client`](https://github.com/derhuerst/hafas-client) – A client for HAFAS mobile APIs.
+- [`hafas-rest-api`](https://github.com/derhuerst/hafas-rest-api) – Expose a HAFAS client via an HTTP REST API.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
 - [`vbb-monitor`](https://github.com/derhuerst/vbb-monitor) – Fetch all departures of all lines at all stations.
 - [`vbb-positions-stream`](https://github.com/derhuerst/vbb-positions-stream) – A realtime stream for positions of buses and trains.
@@ -70,21 +73,24 @@ These modules can be used to query data from the (private) API and other places.
 - [`vbb-map-routing`](https://github.com/derhuerst/vbb-map-routing) – Travel in Berlin, using a map. *unfinished*
 - [`vbb-journey-ui`](https://github.com/derhuerst/vbb-journey-ui) – UI component for displaying a journey like in Google Maps.
 - [`vbb-delays-map`](https://github.com/derhuerst/vbb-delays-map) – A map showing delays of public transport in Berlin. *outdated*
-- [`record-vbb-delays`](https://github.com/derhuerst/record-vbb-delays) – Generate statistics on delayed departures. *unfinished*
+- [`record-vbb-delays`](https://github.com/derhuerst/record-vbb-delays) – Generate statistics on delayed departures.
 - [`generate-vbb-gtfs`](https://github.com/derhuerst/generate-vbb-gtfs) – Generate clean GTFS from VBB data. *unfinished*
 - [`bvg-topological-map`](https://github.com/derhuerst/bvg-topological-map) – BVG transport map as a nice SVG.
 - [`vbb-stations-html`](https://derhuerst.github.io/vbb-stations-html/) – An HTML index of all VBB stations.
 - [`vbb-web`](https://github.com/derhuerst/vbb-web) – A web client for Berlin & Brandenburg public transport.
-- [`vbb-anybar`](https://github.com/derhuerst/vbb-anybar) – Let the status bar show you when to catch the train. *unfinished*
-- [`vbb-get-off-bot`](https://github.com/derhuerst/vbb-get-off-bot) – A Telegram bot that helps you get off your train on time. *unfinished*
+- [`vbb-anybar`](https://github.com/derhuerst/vbb-anybar) – Let the status bar show you when to catch the train.
+- [`vbb-get-off-bot`](https://github.com/derhuerst/vbb-get-off-bot) – A Telegram bot that helps you get off your train on time.
 - [`berlin-commute-footprint`](https://github.com/derhuerst/berlin-commute-footprint) – Compare cost, environmental and health impact of commuting by car, public transport of bike. *unfinished*
 - [`predict-vbb-delays`](https://github.com/derhuerst/predict-vbb-delays) – Predict delays of Berlin public transport vehicles. *unfinished*
+- [`vbb-routing`](https://github.com/derhuerst/vbb-routing) – Compute journeys based on the VBB GTFS data. *unfinished*
+- [`naive-gtfs-routing`](https://github.com/derhuerst/naive-gtfs-routing) – A naive routing engine for GTFS data. *unfinished*
 
 From the [*How to automatically generate transit maps.*](https://github.com/public-transport/generating-transit-maps) experiment:
 
 - [`generate-vbb-graph`](https://github.com/derhuerst/generate-vbb-graph) – Berlin & Brandenburg public transport as JGF file.
 - [`generate-vbb-transit-map`](https://github.com/derhuerst/generate-vbb-transit-map) – Generate an SVG transit map for Berlin public transport.
-- [`vbb-graph-computation-server`](https://github.com/derhuerst/vbb-graph-computation-server) – A web service to queue VBB transit map computations.
+- [`transit-map-generator`](https://github.com/derhuerst/transit-map-generator) – Generate and optimize transit maps interactively. *unfinsihed*
+- [`vbb-graph-computation-server`](https://github.com/derhuerst/vbb-graph-computation-server) – A web service to queue VBB transit map computations. *unfinsihed*
 
 Modules I'm not willing to maintain right now:
 
@@ -124,3 +130,7 @@ These modules perform a specific distinct task. They are used by the modules abo
 - [`vbb-short-station-name`](https://github.com/derhuerst/vbb-short-station-name) – Remove noise from station names.
 - [`vbb-tokenize-station`](https://github.com/derhuerst/vbb-tokenize-station) – Make station names search-safe.
 - [`vbb-util`](https://github.com/derhuerst/vbb-util) – JavaScript utilites for `vbb-hafas`.
+- [`are-vbb-hafas-stations-the-same`](https://github.com/derhuerst/are-vbb-hafas-stations-the-same#are-vbb-hafas-stations-the-same) – Check if two stations from the VBB API should be one.
+- [`hafas-discover-stations`](https://github.com/derhuerst/hafas-discover-stations#hafas-discover-stations) – Pass in a HAFAS client, discover stations by querying departures.
+- [`hafas-estimate-station-weight`](https://github.com/derhuerst/hafas-estimate-station-weight#hafas-estimate-station-weight) – Pass in a HAFAS client, estimate the importance of a station.
+- [`hafas-monitor-journeys`](https://github.com/derhuerst/hafas-monitor-journeys) – Use any HAFAS API to monitor journeys from A to B.
