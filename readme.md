@@ -4,8 +4,6 @@ This is a list of JavaScript modules for [Berlin & Brandenburg public transport 
 
 [![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
 
-*TLDR*: Use [vbb-rest](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) if you don't know where to start or want a very light client.
-
 ## Friendly Public Transport Format
 
 There's an ongoing effort to convert all of the modules below to the [Friendly Public Transport Format](https://github.com/public-transport/friendly-public-transport-format), which intends to make them interoperable and easier to use.
@@ -36,6 +34,7 @@ Modules to find stations:
 
 Modules with additional data:
 
+- [`vbb-change-positions`](https://github.com/derhuerst/vbb-change-positions) – Station-specific platform positions for changes between vbb main lines.
 - [`vbb-fare-zones`](https://github.com/derhuerst/vbb-fare-zones) – All VBB stations and their fare zones.
 - [`vbb-station-operators`](https://github.com/derhuerst/vbb-station-operators) – Which operator services a Berlin public transport station?
 - [`vbb-common-places`](https://github.com/derhuerst/vbb-common-places) – Aliases for common stations.
