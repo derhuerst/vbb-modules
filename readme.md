@@ -40,6 +40,7 @@ Modules with additional data:
 - [`vbb-common-places`](https://github.com/derhuerst/vbb-common-places) – Aliases for common stations.
 - [`vbb-osm-relations`](https://github.com/derhuerst/vbb-osm-relations) – VBB lines, platforms, entrances and their OSM relations.
 - [`vbb-station-photos`](https://github.com/derhuerst/vbb-station-photos) – Photos of every subway station in Berlin.
+- [`vbb-platform-patterns`](https://github.com/juliuste/vbb-platform-patterns) – VBB station platform wall (tile) color patterns.
 - [`vbb-stations-with-wifi`](https://github.com/derhuerst/vbb-stations-with-wifi) – All VBB stations with free wifi.
 - [`vbb-logos`](https://github.com/derhuerst/vbb-logos) – Nice SVG logos for Berlin & Brandenburg public transport.
 - [`vbb-entrances`](https://github.com/derhuerst/vbb-entrances) – Entrances for VBB stations. *outdated*
@@ -59,10 +60,11 @@ These modules can be used to query data from the (private) API and other places.
 - [`vbb-hafas`](https://github.com/derhuerst/vbb-hafas) – A client for their HAFAS API.
 - [`hafas-departures-in-direction`](https://github.com/derhuerst/hafas-departures-in-direction) – Pass in a HAFAS client, get departures in a certain direction.
 - [`hafas-collect-departures-at`](https://github.com/derhuerst/hafas-collect-departures-at) – Utility to collect departures, using any HAFAS client.
-- [`hafas-client`](https://github.com/derhuerst/hafas-client) – A client for HAFAS mobile APIs.
+- [`hafas-monitor-departures`](https://github.com/derhuerst/hafas-monitor-departures) – Pass in a HAFAS client, fetch all departures at any set of stations.
+- [`hafas-record-delays`](https://github.com/derhuerst/hafas-record-delays) – Record delays from `hafas-monitor-departures` into a LevelDB.
+- [`hafas-client`](https://github.com/public-transport/hafas-client) – A client for HAFAS mobile APIs.
 - [`hafas-rest-api`](https://github.com/derhuerst/hafas-rest-api) – Expose a HAFAS client via an HTTP REST API.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
-- [`vbb-monitor`](https://github.com/derhuerst/vbb-monitor) – Fetch all departures of all lines at all stations.
 - [`vbb-positions-stream`](https://github.com/derhuerst/vbb-positions-stream) – A realtime stream for positions of buses and trains.
 
 ## Tools, UIs & Experiments
