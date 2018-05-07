@@ -49,7 +49,7 @@ Modules with additional data:
 
 ## APIs
 
-VBB also **[provides an API](https://www.vbb.de/de/article/fahrplan/webservices/schnittstellen-fuer-webentwickler/5070.html)** under a proprietary license. This *public* API provides all the information they have, but [is unstable and rate-limited, doesn't have CORS and isn't REST](https://github.com/derhuerst/vbb-rest/blob/master/docs/why.md#why-use-this-api).
+VBB also **[provides an API](https://www.vbb.de/de/article/fahrplan/webservices/schnittstellen-fuer-webentwickler/5070.html)** under a proprietary license. This *public* API provides all the information they have, but [is rate-limited, doesn't have CORS and isn't REST](https://github.com/derhuerst/vbb-rest/blob/master/docs/why.md#why-use-this-api).
 
 The VBB app talks to another ***private* API that has neither rate limits nor authentication**. Please note that the usage of this API is not officially endorsed and does not have any licensing. Use it through the modules below at your own risk.
 
@@ -85,6 +85,8 @@ These modules can be used to query data from the (private) API and other places.
 - [`predict-vbb-delays`](https://github.com/derhuerst/predict-vbb-delays) – Predict delays of Berlin public transport vehicles. *unfinished*
 - [`vbb-routing`](https://github.com/derhuerst/vbb-routing) – Compute journeys based on the VBB GTFS data. *unfinished*
 - [`naive-gtfs-routing`](https://github.com/derhuerst/naive-gtfs-routing) – A naive routing engine for GTFS data. *unfinished*
+- [`remix-bvg-map-frontend`](https://github.com/derhuerst/remix-bvg-map-frontend) – A website that allows you to remix the BVG transit map. *unfinished*
+- [`remix-bvg-map-backend`](https://github.com/derhuerst/remix-bvg-map-backend) – The backend of a website that allows you to remix the BVG transit map. *unfinished*
 
 From the [*How to automatically generate transit maps.*](https://github.com/public-transport/generating-transit-maps) experiment:
 
@@ -135,3 +137,4 @@ These modules perform a specific distinct task. They are used by the modules abo
 - [`hafas-discover-stations`](https://github.com/derhuerst/hafas-discover-stations#hafas-discover-stations) – Pass in a HAFAS client, discover stations by querying departures.
 - [`hafas-estimate-station-weight`](https://github.com/derhuerst/hafas-estimate-station-weight#hafas-estimate-station-weight) – Pass in a HAFAS client, estimate the importance of a station.
 - [`hafas-monitor-journeys`](https://github.com/derhuerst/hafas-monitor-journeys) – Use any HAFAS API to monitor journeys from A to B.
+- [`vbb-line-variant-score`](https://github.com/derhuerst/vbb-line-variant-score) – Identify the canonical variants of a VBB line.
