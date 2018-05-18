@@ -6,7 +6,7 @@ This is a list of JavaScript modules for [Berlin & Brandenburg public transport 
 
 ## Friendly Public Transport Format
 
-There's an ongoing effort to convert all of the modules below to the [Friendly Public Transport Format](https://github.com/public-transport/friendly-public-transport-format), which intends to make them interoperable and easier to use.
+Most of the modules below should be compatible with the [Friendly Public Transport Format](https://github.com/public-transport/friendly-public-transport-format) by now, making them interoperable.
 
 ## Static Data
 
@@ -137,4 +137,6 @@ These modules perform a specific distinct task. They are used by the modules abo
 - [`hafas-discover-stations`](https://github.com/derhuerst/hafas-discover-stations#hafas-discover-stations) – Pass in a HAFAS client, discover stations by querying departures.
 - [`hafas-estimate-station-weight`](https://github.com/derhuerst/hafas-estimate-station-weight#hafas-estimate-station-weight) – Pass in a HAFAS client, estimate the importance of a station.
 - [`hafas-monitor-journeys`](https://github.com/derhuerst/hafas-monitor-journeys) – Use any HAFAS API to monitor journeys from A to B.
+- [`hafas-fetch-track-slice`](https://github.com/derhuerst/hafas-fetch-track-slice) – Pass in a journey (leg) ID, get a slice between stations of its track.
+- [`hafas-find-trip`](https://github.com/derhuerst/hafas-find-trip) – Provide location and bearing, get the vehicle you're most likely in.
 - [`vbb-line-variant-score`](https://github.com/derhuerst/vbb-line-variant-score) – Identify the canonical variants of a VBB line.
