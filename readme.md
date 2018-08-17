@@ -55,14 +55,14 @@ The VBB app talks to another ***private* API that has neither rate limits nor au
 
 These modules can be used to query data from the (private) API and other places.
 
-- [`vbb-client`](https://github.com/derhuerst/vbb-client) – An API client for `vbb-rest`, covering all of VBB, deployed at `2.vbb.transport.rest`.
+- ~~[`vbb-client`](https://github.com/derhuerst/vbb-client) – An API client for `vbb-rest`, covering all of VBB, deployed at `2.vbb.transport.rest`.~~ API is down for now, see [derhuerst/vbb-rest#29](https://github.com/derhuerst/vbb-rest/issues/29).
 - [`vbb-rest`](https://github.com/derhuerst/vbb-rest) – An HTTP API, covering all of VBB.
 - [`vbb-hafas`](https://github.com/derhuerst/vbb-hafas) – A client for their HAFAS API.
-- [`hafas-departures-in-direction`](https://github.com/derhuerst/hafas-departures-in-direction) – Pass in a HAFAS client, get departures in a certain direction.
 - [`hafas-collect-departures-at`](https://github.com/derhuerst/hafas-collect-departures-at) – Utility to collect departures, using any HAFAS client.
 - [`hafas-monitor-departures`](https://github.com/derhuerst/hafas-monitor-departures) – Pass in a HAFAS client, fetch all departures at any set of stations.
 - [`hafas-record-delays`](https://github.com/derhuerst/hafas-record-delays) – Record delays from `hafas-monitor-departures` into a LevelDB.
 - [`hafas-client`](https://github.com/public-transport/hafas-client) – A client for HAFAS mobile APIs.
+- [`hafas-client-rpc`](https://github.com/derhuerst/hafas-client-rpc) – Make JSON-RPC calls to `hafas-client` via WebSockets.
 - [`hafas-rest-api`](https://github.com/derhuerst/hafas-rest-api) – Expose a HAFAS client via an HTTP REST API.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
 - [`vbb-positions-stream`](https://github.com/derhuerst/vbb-positions-stream) – A realtime stream for positions of buses and trains.
@@ -138,5 +138,5 @@ These modules perform a specific distinct task. They are used by the modules abo
 - [`hafas-estimate-station-weight`](https://github.com/derhuerst/hafas-estimate-station-weight#hafas-estimate-station-weight) – Pass in a HAFAS client, estimate the importance of a station.
 - [`hafas-monitor-journeys`](https://github.com/derhuerst/hafas-monitor-journeys) – Use any HAFAS API to monitor journeys from A to B.
 - [`hafas-fetch-track-slice`](https://github.com/derhuerst/hafas-fetch-track-slice) – Pass in a journey (leg) ID, get a slice between stations of its track.
-- [`hafas-find-trip`](https://github.com/derhuerst/hafas-find-trip) – Provide location and bearing, get the vehicle you're most likely in.
+- [`hafas-find-trips`](https://github.com/derhuerst/hafas-find-trips) – Provide location and bearing, get a list vehicles you're most likely in.
 - [`vbb-line-variant-score`](https://github.com/derhuerst/vbb-line-variant-score) – Identify the canonical variants of a VBB line.
