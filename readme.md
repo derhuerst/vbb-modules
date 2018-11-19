@@ -41,7 +41,8 @@ Modules with additional data:
 - [`vbb-osm-relations`](https://github.com/derhuerst/vbb-osm-relations) – VBB lines, platforms, entrances and their OSM relations.
 - [`vbb-station-photos`](https://github.com/derhuerst/vbb-station-photos) – Photos of every subway station in Berlin.
 - [`vbb-platform-patterns`](https://github.com/juliuste/vbb-platform-patterns) – VBB station platform wall (tile) color patterns.
-- [`vbb-stations-with-wifi`](https://github.com/derhuerst/vbb-stations-with-wifi) – All VBB stations with free wifi.
+- [`vbb-stations-with-wifi`](https://github.com/derhuerst/vbb-stations-with-wifi) – VBB stations with free wifi and their BSSIDs.
+- [`vbb-stations-with-bicycle-parking`](https://github.com/derhuerst/vbb-stations-with-bicycle-parking) – VBB stations with nearby bicycle parking facilities. Taken from OSM.
 - [`vbb-logos`](https://github.com/derhuerst/vbb-logos) – Nice SVG logos for Berlin & Brandenburg public transport.
 - [`vbb-entrances`](https://github.com/derhuerst/vbb-entrances) – Entrances for VBB stations. *outdated*
 - [`vbb-delays-list`](https://github.com/derhuerst/vbb-delays-list) – Statistics on delays at VBB stations. *unfinished*
@@ -63,6 +64,7 @@ These modules can be used to query data from the (private) API and other places.
 - [`hafas-record-delays`](https://github.com/derhuerst/hafas-record-delays) – Record delays from `hafas-monitor-departures` into a LevelDB.
 - [`hafas-client`](https://github.com/public-transport/hafas-client) – A client for HAFAS mobile APIs.
 - [`hafas-client-rpc`](https://github.com/derhuerst/hafas-client-rpc) – Make JSON-RPC calls to `hafas-client` via WebSockets.
+- [`observe-hafas-client`](https://github.com/derhuerst/observe-hafas-client) – Observe all departures/arrivals/etc. returned by `hafas-client`.
 - [`hafas-rest-api`](https://github.com/derhuerst/hafas-rest-api) – Expose a HAFAS client via an HTTP REST API.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
 - [`vbb-positions-stream`](https://github.com/derhuerst/vbb-positions-stream) – A realtime stream for positions of buses and trains.
@@ -132,7 +134,7 @@ These modules perform a specific distinct task. They are used by the modules abo
 - [`vbb-parse-ticket`](https://github.com/derhuerst/vbb-parse-ticket) – Parse ticket information from the HAFAS API.
 - [`vbb-short-station-name`](https://github.com/derhuerst/vbb-short-station-name) – Remove noise from station names.
 - [`vbb-tokenize-station`](https://github.com/derhuerst/vbb-tokenize-station) – Make station names search-safe.
-- [`vbb-util`](https://github.com/derhuerst/vbb-util) – JavaScript utilites for `vbb-hafas`.
+- [`vbb-line-colors`](https://github.com/derhuerst/vbb-line-colors) – Colors of VBB lines.
 - [`are-vbb-hafas-stations-the-same`](https://github.com/derhuerst/are-vbb-hafas-stations-the-same#are-vbb-hafas-stations-the-same) – Check if two stations from the VBB API should be one.
 - [`hafas-discover-stations`](https://github.com/derhuerst/hafas-discover-stations#hafas-discover-stations) – Pass in a HAFAS client, discover stations by querying departures.
 - [`hafas-estimate-station-weight`](https://github.com/derhuerst/hafas-estimate-station-weight#hafas-estimate-station-weight) – Pass in a HAFAS client, estimate the importance of a station.
