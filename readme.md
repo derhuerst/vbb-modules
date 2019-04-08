@@ -60,10 +60,11 @@ These modules can be used to query data from the (private) API and other places.
 - [`vbb-rest`](https://github.com/derhuerst/vbb-rest) – An HTTP API, covering all of VBB.
 - [`vbb-hafas`](https://github.com/derhuerst/vbb-hafas) – A client for their HAFAS API.
 - [`hafas-collect-departures-at`](https://github.com/derhuerst/hafas-collect-departures-at) – Utility to collect departures, using any HAFAS client.
+- [`hafas-monitor-trips`](https://github.com/derhuerst/hafas-monitor-trips) – Using a HAFAS endpoint, watch all trips in a bounding box.
 - [`hafas-monitor-departures`](https://github.com/derhuerst/hafas-monitor-departures) – Pass in a HAFAS client, fetch all departures at any set of stations.
 - [`hafas-record-delays`](https://github.com/derhuerst/hafas-record-delays) – Record delays from `hafas-monitor-departures` into a LevelDB.
 - [`hafas-client`](https://github.com/public-transport/hafas-client) – A client for HAFAS mobile APIs.
-- [`hafas-client-rpc`](https://github.com/derhuerst/hafas-client-rpc) – Make JSON-RPC calls to `hafas-client` via WebSockets.
+- [`hafas-client-rpc`](https://github.com/derhuerst/hafas-client-rpc) – Make JSON-RPC calls to `hafas-client` via WebSockets & stdio.
 - [`observe-hafas-client`](https://github.com/derhuerst/observe-hafas-client) – Observe all departures/arrivals/etc. returned by `hafas-client`.
 - [`hafas-rest-api`](https://github.com/derhuerst/hafas-rest-api) – Expose a HAFAS client via an HTTP REST API.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
@@ -106,7 +107,7 @@ Modules I'm not willing to maintain right now:
 
 ## Community
 
-Modules by others, sorted by latest activity:
+Modules by others, in no particular order:
 
 - [`vbb-stations`](https://github.com/poldixd/vbb-stations) – Lists of stations in Berlin which are operated by BVG or S-Bahn.
 - [`MMM-PublicTransportBerlin`](https://github.com/deg0nz/MMM-PublicTransportBerlin) – MagicMirror module to display public transport with VBB Hafas data.
@@ -141,4 +142,8 @@ These modules perform a specific distinct task. They are used by the modules abo
 - [`hafas-monitor-journeys`](https://github.com/derhuerst/hafas-monitor-journeys) – Use any HAFAS API to monitor journeys from A to B.
 - [`hafas-fetch-track-slice`](https://github.com/derhuerst/hafas-fetch-track-slice) – Pass in a journey (leg) ID, get a slice between stations of its track.
 - [`hafas-find-trips`](https://github.com/derhuerst/hafas-find-trips) – Provide location and bearing, get a list vehicles you're most likely in.
+- [`hafas-find-alternative-legs`](https://github.com/derhuerst/hafas-find-alternative-legs#hafas-find-alternative-legs) – Given a journey, get alternatives for each leg from HAFAS.
+- [`fetch-commute-from-hafas`](https://github.com/derhuerst/fetch-commute-from-hafas#fetch-commute-from-hafas) – For a set commuting instructions, fetch journeys from HAFAS.
 - [`vbb-line-variant-score`](https://github.com/derhuerst/vbb-line-variant-score) – Identify the canonical variants of a VBB line.
+- [`osm-transit-lines`](https://github.com/juliuste/osm-transit-lines) – Fetch public transit lines from OpenStreetMap for a given area (bounding box).
+https://github.com/juliuste/vbb-platform-patterns
