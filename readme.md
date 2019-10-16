@@ -29,7 +29,6 @@ Modules to find stations:
 
 - [`vbb-stations-autocomplete`](https://github.com/derhuerst/vbb-stations-autocomplete) – Autocomplete stations.
 - [`vbb-find-stations`](https://github.com/derhuerst/vbb-find-stations) – Search for stations.
-- [`vbb-find-station`](https://github.com/derhuerst/vbb-find-station) – Search for a station.
 - [`vbb-stations-cli`](https://github.com/derhuerst/vbb-stations-cli) – Find and filter stations from the command line.
 
 Modules with additional data:
@@ -52,7 +51,7 @@ Modules with additional data:
 
 VBB also **[provides an API](https://www.vbb.de/de/article/fahrplan/webservices/schnittstellen-fuer-webentwickler/5070.html)** under a proprietary license. This *public* API provides all the information they have, but [is rate-limited, doesn't have CORS and isn't REST](https://github.com/derhuerst/vbb-rest/blob/master/docs/why.md#why-use-this-api).
 
-The VBB app talks to another ***private* API that has neither rate limits nor authentication**. Please note that the usage of this API is not officially endorsed and does not have any licensing. Use it through the modules below at your own risk.
+The VBB app talks to another ***private* API that has no rate limits**. Please note that the usage of this API is not officially endorsed and does not have any licensing. Use it through the modules below at your own risk.
 
 These modules can be used to query data from the (private) API and other places.
 
@@ -71,6 +70,8 @@ These modules can be used to query data from the (private) API and other places.
 - [`observe-hafas-client`](https://github.com/derhuerst/observe-hafas-client) – Observe all departures/arrivals/etc. returned by `hafas-client`.
 - [`hafas-rest-api`](https://github.com/derhuerst/hafas-rest-api) – Expose a HAFAS client via an HTTP REST API.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
+- [`sbahn-berlin-tweets`](https://github.com/derhuerst/sbahn-berlin-tweets) – Fetch & parse [`@SBahnBerlin`](https://mobile.twitter.com/SBahnBerlin) tweets on the operating status of [S-Bahn Berlin](https://en.wikipedia.org/wiki/Berlin_S-Bahn).
+- [`augment-vbb-hafas`](https://github.com/derhuerst/augment-vbb-hafas) – Augment [VBB HAFAS](https://npmjs.com/package/vbb-hafas) responses with realtime data from other channels.
 - [`vbb-positions-stream`](https://github.com/derhuerst/vbb-positions-stream) – A realtime stream for positions of buses and trains.
 
 ## Tools, UIs & Experiments
@@ -87,6 +88,7 @@ These modules can be used to query data from the (private) API and other places.
 - [`vbb-web`](https://github.com/derhuerst/vbb-web) – A web client for Berlin & Brandenburg public transport.
 - [`vbb-anybar`](https://github.com/derhuerst/vbb-anybar) – Let the status bar show you when to catch the train.
 - [`vbb-get-off-bot`](https://github.com/derhuerst/vbb-get-off-bot) – A Telegram bot that helps you get off your train on time.
+- [`hafas-linked-connections-server`](https://github.com/derhuerst/hafas-linked-connections-server) – Create a [Linked Connections](https://linkedconnections.org) endpoint from a [HAFAS client](https://github.com/public-transport/hafas-client).
 - [`berlin-commute-footprint`](https://github.com/derhuerst/berlin-commute-footprint) – Compare cost, environmental and health impact of commuting by car, public transport of bike. *unfinished*
 - [`predict-vbb-delays`](https://github.com/derhuerst/predict-vbb-delays) – Predict delays of Berlin public transport vehicles. *unfinished*
 - [`vbb-routing`](https://github.com/derhuerst/vbb-routing) – Compute journeys based on the VBB GTFS data. *unfinished*
@@ -149,4 +151,3 @@ These modules perform a specific distinct task. They are used by the modules abo
 - [`fetch-commute-from-hafas`](https://github.com/derhuerst/fetch-commute-from-hafas#fetch-commute-from-hafas) – For a set commuting instructions, fetch journeys from HAFAS.
 - [`vbb-line-variant-score`](https://github.com/derhuerst/vbb-line-variant-score) – Identify the canonical variants of a VBB line.
 - [`osm-transit-lines`](https://github.com/juliuste/osm-transit-lines) – Fetch public transit lines from OpenStreetMap for a given area (bounding box).
-https://github.com/juliuste/vbb-platform-patterns
