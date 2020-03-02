@@ -64,7 +64,6 @@ These modules can be used to query data from the (private) API and other places.
 - [`hafas-monitor-trips-server`](https://github.com/derhuerst/hafas-monitor-trips-server) – A server that manages HAFAS monitors.
 - [`hafas-monitor-departures`](https://github.com/derhuerst/hafas-monitor-departures) – Pass in a HAFAS client, fetch all departures at any set of stations.
 - [`hafas-gtfs-rt-feed`](https://github.com/derhuerst/hafas-gtfs-rt-feed) – Generate a [GTFS Realtime](https://developers.google.com/transit/gtfs-realtime/) feed by [monitoring](https://github.com/derhuerst/hafas-monitor-trips) a HAFAS endpoint.
-- [`hafas-record-delays`](https://github.com/derhuerst/hafas-record-delays) – Record delays from `hafas-monitor-departures` into a LevelDB.
 - [`find-hafas-leg-in-another-hafas`](https://github.com/derhuerst/find-hafas-leg-in-another-hafas) – Find a journey leg from one HAFAS endpoint in the data of another HAFAS endpoint.
 - [`hafas-client`](https://github.com/public-transport/hafas-client) – A client for HAFAS mobile APIs.
 - [`hafas-client-rpc`](https://github.com/derhuerst/hafas-client-rpc) – Make JSON-RPC calls to `hafas-client` via WebSockets & stdio.
@@ -79,12 +78,13 @@ These modules can be used to query data from the (private) API and other places.
 
 - [`pan-european-public-transport`](https://github.com/derhuerst/pan-european-public-transport) – Merges data from API endpoints for various regions to get better public transport routing than what *one* endpoint provides. *unfinished*
 - [`stable-public-transport-ids`](https://github.com/derhuerst/stable-public-transport-ids) – Get stable IDs for public transport data. *unfinished*
+- [`monitor-hafas-cli`](https://github.com/derhuerst/monitor-hafas-cli) – Monitor any HAFAS endpoint from the command line.
+- [`record-hafas-data`](https://github.com/derhuerst/record-hafas-data) – CLI tool to record data from [`monitor-hafas-cli`](https://github.com/derhuerst/monitor-hafas-cli) into a [LevelDB](http://leveldb.org).
 - [`vbb-cli`](https://github.com/derhuerst/vbb-cli) – A CLI for VBB.
 - [`vbb-telegram`](https://github.com/derhuerst/vbb-telegram) – A Telegram bot for VBB.
 - [`vbb-map-routing`](https://github.com/derhuerst/vbb-map-routing) – Travel in Berlin, using a map. *unfinished*
 - [`vbb-journey-ui`](https://github.com/derhuerst/vbb-journey-ui) – UI component for displaying a journey like in Google Maps.
 - [`vbb-delays-map`](https://github.com/derhuerst/vbb-delays-map) – A map showing delays of public transport in Berlin. *outdated*
-- [`record-vbb-delays`](https://github.com/derhuerst/record-vbb-delays) – Generate statistics on delayed departures.
 - [`generate-vbb-gtfs`](https://github.com/derhuerst/generate-vbb-gtfs) – Generate clean GTFS from VBB data. *unfinished*
 - [`bvg-topological-map`](https://github.com/derhuerst/bvg-topological-map) – BVG transport map as a nice SVG.
 - [`vbb-stations-html`](https://derhuerst.github.io/vbb-stations-html/) – An HTML index of all VBB stations.
