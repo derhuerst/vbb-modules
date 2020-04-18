@@ -2,7 +2,7 @@
 
 This is a list of JavaScript modules for [Berlin & Brandenburg public transport (VBB)](https://www.vbb.de/), grouped by their data source.
 
-[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
+[![support me via GitHub Sponsors](https://img.shields.io/badge/support%20me-via%20GitHub%20Sponsors-fa7664.svg)](https://github.com/sponsors/derhuerst)
 
 ## Friendly Public Transport Format
 
@@ -57,18 +57,19 @@ These modules can be used to query data from the (private) API and other places.
 
 - ~~[`vbb-client`](https://github.com/derhuerst/vbb-client) – An API client for `vbb-rest`, covering all of VBB, deployed at `2.vbb.transport.rest`.~~ API is down for now, see [derhuerst/vbb-rest#29](https://github.com/derhuerst/vbb-rest/issues/29).
 - [`vbb-rest`](https://github.com/derhuerst/vbb-rest) – An HTTP API, covering all of VBB.
-- [`vbb-hafas`](https://github.com/derhuerst/vbb-hafas) – A client for their HAFAS API.
-- [`hafas-collect-departures-at`](https://github.com/derhuerst/hafas-collect-departures-at) – Utility to collect departures, using any HAFAS client.
+- [`vbb-hafas`](https://github.com/public-transport/vbb-hafas) – A client for their HAFAS API.
+- [`hafas-collect-departures-at`](https://github.com/public-transport/hafas-collect-departures-at) – Utility to collect departures, using any HAFAS client.
 - [`hafas-monitor-trips`](https://github.com/derhuerst/hafas-monitor-trips) – Using a HAFAS endpoint, watch all trips in a bounding box.
 - [`hafas-live-ws-server`](https://github.com/derhuerst/hafas-live-ws-server) – A WebSocket server that sends out live HAFAS data.
 - [`hafas-monitor-trips-server`](https://github.com/derhuerst/hafas-monitor-trips-server) – A server that manages HAFAS monitors.
 - [`hafas-monitor-departures`](https://github.com/derhuerst/hafas-monitor-departures) – Pass in a HAFAS client, fetch all departures at any set of stations.
 - [`hafas-gtfs-rt-feed`](https://github.com/derhuerst/hafas-gtfs-rt-feed) – Generate a [GTFS Realtime](https://developers.google.com/transit/gtfs-realtime/) feed by [monitoring](https://github.com/derhuerst/hafas-monitor-trips) a HAFAS endpoint.
-- [`find-hafas-leg-in-another-hafas`](https://github.com/derhuerst/find-hafas-leg-in-another-hafas) – Find a journey leg from one HAFAS endpoint in the data of another HAFAS endpoint.
+- [`find-hafas-data-in-another-hafas`](https://github.com/derhuerst/find-hafas-data-in-another-hafas) – Find data from one HAFAS endpoint in another HAFAS endpoint.
 - [`hafas-client`](https://github.com/public-transport/hafas-client) – A client for HAFAS mobile APIs.
+- [`cached-hafas-client`](https://github.com/public-transport/cached-hafas-client) – Pass in a HAFAS client, cache data from it.
 - [`hafas-client-rpc`](https://github.com/derhuerst/hafas-client-rpc) – Make JSON-RPC calls to `hafas-client` via WebSockets & stdio.
-- [`observe-hafas-client`](https://github.com/derhuerst/observe-hafas-client) – Observe all departures/arrivals/etc. returned by `hafas-client`.
-- [`hafas-rest-api`](https://github.com/derhuerst/hafas-rest-api) – Expose a HAFAS client via an HTTP REST API.
+- [`observe-hafas-client`](https://github.com/public-transport/observe-hafas-client) – Observe all departures/arrivals/etc. returned by `hafas-client`.
+- [`hafas-rest-api`](https://github.com/public-transport/hafas-rest-api) – Expose a HAFAS client via an HTTP REST API.
 - [`vbb-disruptions`](https://github.com/derhuerst/vbb-disruptions) – Disruptions in VBB public transport.
 - [`sbahn-berlin-tweets`](https://github.com/derhuerst/sbahn-berlin-tweets) – Fetch & parse [`@SBahnBerlin`](https://mobile.twitter.com/SBahnBerlin) tweets on the operating status of [S-Bahn Berlin](https://en.wikipedia.org/wiki/Berlin_S-Bahn).
 - [`augment-vbb-hafas`](https://github.com/derhuerst/augment-vbb-hafas) – Augment [VBB HAFAS](https://npmjs.com/package/vbb-hafas) responses with realtime data from other channels.
