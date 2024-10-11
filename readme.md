@@ -10,7 +10,7 @@ Most of the modules below should be compatible with the [Friendly Public Transpo
 
 ## Static Data
 
-VBB **[publishes static public transport data](http://daten.berlin.de/datensaetze/vbb-fahrplandaten-dezember-2016-bis-dezember-2017) (stops of all trains of all lines at all stations) as [GTFS](https://developers.google.com/transit/gtfs/).** These GTFS data sets look & feel like a database dump, so a lot of processing needs to be done to actually consume this data.
+VBB **[publishes static public transport data](https://daten.berlin.de/datensaetze/vbb-fahrplandaten-via-gtfs) (stops of all trains of all lines at all stations) as [GTFS](https://developers.google.com/transit/gtfs/).** These GTFS data sets look & feel like a database dump, so a lot of processing needs to be done to actually consume this data.
 
 Modules containing processed static data:
 
@@ -130,7 +130,7 @@ Modules by others, in no particular order:
 - [`berlin-transport-status`](https://github.com/mschneider/berlin-transport-status) – Distributed crawler for VBB-Fahrinfo written in node.js
 - [`vbb-json`](https://github.com/stefanw/vbb-json) – JSON-API wrapper around the VBB API
 - [`vbbFXOS`](https://github.com/derroman/vbbFXOS) – vbb maps ported to firefox os
-- [`vbb-coverage`](https://github.com/domoritz/vbb-coverage) – Visualization of the VBB data from [`daten.berlin.de`](http://daten.berlin.de/datensaetze/vbb-fahrplan2012)
+- [`vbb-coverage`](https://github.com/domoritz/vbb-coverage) – Visualization of the [VBB data from `daten.berlin.de`](https://daten.berlin.de/datensaetze/vbb-fahrplandaten-via-gtfs)
 
 ## Utilities
 
